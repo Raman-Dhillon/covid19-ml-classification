@@ -47,6 +47,17 @@ This repository presents an end-to-end COVID-19 prediction system developed usin
 3. Recall
 4. F1-Score
 5. Confusion Matrix
+##  📊 Model-wise Results
+### Custom CNN
+![covid19-ml-classification](\covidcnnconfusionmatrix.png)
+
+##  📈 Performance Comparision
+| Model        | Train Accuracy | Validation Accuracy |
+|--------------|----------------|---------------------|
+| Custom CNN   | 0.3450       | 0.9883                 |
+| ResNet50    | 0.9876         | 0.9993                |
+| Inception v3| 0.8719        | 0.9652              |
+
 ## 🚀 Results
 The trained model achieves high prediction accuracy, demonstrating its effectiveness in distinguishing COVID-19 cases. The results indicate that machine learning can significantly support automated and rapid medical diagnosis.
 ## 🧹 Clean Notebook Practices
